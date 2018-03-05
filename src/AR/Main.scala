@@ -4,7 +4,8 @@ import org.apache.spark.mllib.fpm.FPGrowth
 import org.apache.spark.sql.SparkSession
 
 // ./spark-submit --master yarn --class AR.Main --executor-memory 20G --driver-memory 20G /opt/lg/AR.jar hdfs:///user/lg/AR hdfs:///user/lg/AR
-// /usr/local/hadoop/spark-2.1.2-bin-hadoop2.7/bin/spark-submit --master spark://master:7077 --executor-memory 20G --driver-memory 20G /home/xjtudlc/AR/AR.jar hdfs:///home/xjtudlc/AR hdfs:///home/xjtudlc/AR/ hdfs:///home/xjtudlc/AR/
+// /usr/local/hadoop/spark-2.1.2-bin-hadoop2.7/bin/spark-submit --master spark://master:7077 --executor-memory 20G --driver-memory 20G --total-executor-cores 80 /home/xjtudlc/AR/AR.jar hdfs:///user/xjtudlc/AR hdfs:///user/xjtudlc/AR/ hdfs:///user/xjtudlc/AR/
+
 
 /**
   * Created by lg on 2017/12/26.
